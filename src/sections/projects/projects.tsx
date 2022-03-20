@@ -1,7 +1,18 @@
-import { Box, Flex, Heading, LinkBox, LinkOverlay } from '@chakra-ui/react';
+import { ArrowRightIcon } from '@chakra-ui/icons';
+import {
+  Box,
+  Button,
+  Flex,
+  Heading,
+  LinkBox,
+  LinkOverlay,
+} from '@chakra-ui/react';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function ProjectsSection() {
+  const navigate = useNavigate();
+
   type ProjectElement = {
     title: string;
     description: string;
@@ -31,7 +42,15 @@ function ProjectsSection() {
 
   return (
     <Flex flexDirection="column" align="center" justify="center" gap={5}>
-      <Heading>Projects</Heading>
+      <Flex flexDirection="column" align="center" gap={5}>
+        <Heading>Projects</Heading>
+        <Button
+          rightIcon={<ArrowRightIcon />}
+          onClick={() => navigate('/clients')}
+        >
+          Explore Clients
+        </Button>
+      </Flex>
       <Flex gap={5} wrap="wrap" flexDirection="row" justifyContent="center">
         {data.map((ele: ProjectElement) => (
           <LinkBox key={ele.url}>

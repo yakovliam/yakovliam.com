@@ -1,12 +1,20 @@
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
-import { Flex, IconButton, Text, useColorMode } from '@chakra-ui/react';
+import {
+  Flex,
+  IconButton,
+  Text,
+  useColorMode,
+  useColorModeValue,
+} from '@chakra-ui/react';
 import React from 'react';
 
 function Footer() {
   const { colorMode, toggleColorMode } = useColorMode();
+  const background = useColorModeValue('gray.100', 'gray.700');
 
   return (
     <Flex
+      backgroundColor={background}
       w="full"
       padding={5}
       align="center"
