@@ -21,10 +21,10 @@ function ProjectsSection() {
 
   const data: ProjectElement[] = [
     {
-      title: 'Licent',
+      title: 'CSCSWMessenger',
       description:
-        'A robust digital product licensing system. demo@yakovliam.com/demo1234',
-      url: 'https://github.com/yakovliam/licent.yakovliam.com',
+        'A robust communications system for CSCSW laundry utility machines',
+      url: 'https://github.com/yakovliam/cscswmessenger',
     },
     {
       title: 'KnowBeforeYouGo',

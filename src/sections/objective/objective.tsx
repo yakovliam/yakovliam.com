@@ -15,9 +15,8 @@ function ObjectiveSection() {
         I am a results <Text as="i">and</Text> process-oriented engineer with
         years of knowledge in product development cycles, application
         development, and network administration. I aim to leverage my abilities
-        to successfully fill an engineering position at your company. I am
-        frequently praised as diligent by my peers, and I can be relied upon to
-        help your company achieve its goals.
+        to successfully fill a software architecture, engineering, or
+        researching role at your company.
       </Text>
     </Flex>
   );

@@ -11,9 +11,32 @@ function ClientsPage() {
 
   const data: ClientCardData[] = [
     {
+      name: 'Tarigma Corporation',
+      // write a long description of what you did for them
+      // that includes working on multimillion dollar projects
+      // that includes mission-critical electrical power utlity systems and data
+      // and contracting for General Electric, Schweitzer Engineering Laboratories, AEP Energy, and other
+      // large companies in the power industry
+      whatIDid:
+        'Developed multi-million dollar power utility systems software for large companies such as General Electric, Schweitzer Engineering Laboratories, AEP Energy, and others',
+      url: 'https://www.tarigma.com/',
+    },
+    {
+      name: 'Laundrivr',
+      whatIDid:
+        'Designed a full-stack mobile application and Bluetooth Runtime that allows users to schedule and pay for laundry services',
+      url: 'https://www.laundrivr.com/',
+    },
+    {
+      name: 'Skycade.net',
+      whatIDid:
+        'Architected and engineered a video-game software runtime and network infrastructure that supported millions of users',
+      url: 'https://www.skycade.net/',
+    },
+    {
       name: 'JackSucksAtLife',
       whatIDid:
-        "Developed unique game server engines that powered tens of thousands of daily users' experiences",
+        "Developed unique game server engines that powered hundreds of thousands of daily users' experiences",
       url: 'https://www.youtube.com/channel/UCewMTclBJZPaNEfbf-qYMGA',
     },
     {
@@ -37,7 +60,7 @@ function ClientsPage() {
     {
       name: 'DaniDev',
       whatIDid:
-        'Developed unique and powerful internal tools for use by other employees to monitor and collect data',
+        'Developed unique and powerful internal tools for use by other employees to monitor and collect data on user activity',
       url: 'https://www.youtube.com/channel/UCIabPXjvT5BVTxRDPCBBOOQ',
     },
     {

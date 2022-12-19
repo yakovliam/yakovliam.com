@@ -1,4 +1,12 @@
-import { Avatar, Flex, Tooltip, Link, Icon, Heading } from '@chakra-ui/react';
+import {
+  Avatar,
+  Flex,
+  Tooltip,
+  Link,
+  Icon,
+  Heading,
+  Text,
+} from '@chakra-ui/react';
 import React from 'react';
 import { BsGithub } from 'react-icons/bs';
 import { SiAdobeacrobatreader, SiGmail, SiLinkedin } from 'react-icons/si';
@@ -7,8 +15,13 @@ import Jacob from '../../jacob.png';
 function AboutSection() {
   return (
     <Flex flexDirection="column" align="center" justify="center" gap={10}>
+      <Text>YAKOVLIAM.COM CONSULTING</Text>
       <Avatar boxShadow="dark-lg" size="xl" name="Jacob Cohen" src={Jacob} />
       <Heading>Jacob Cohen</Heading>
+      <Text>
+        Security researcher, software architect, and engineer for multi-million
+        dollar firms.
+      </Text>
       <Flex flexDirection="row" gap={5}>
         <Tooltip label="GitHub" aria-label="github">
           <Link href="https://github.com/yakovliam" isExternal>
@@ -16,10 +29,7 @@ function AboutSection() {
           </Link>
         </Tooltip>
         <Tooltip label="Email" aria-label="email">
-          <Link
-            href="mailto:jacob@yakovliam.com,jacobcohen323@gmail.com"
-            isExternal
-          >
+          <Link href="mailto:jacob@yakovliam.com" isExternal>
             <Icon as={SiGmail} w={12} h={12} />
           </Link>
         </Tooltip>
