@@ -19,8 +19,8 @@ function AboutSection() {
       <Avatar boxShadow="dark-lg" size="xl" name="Jacob Cohen" src={Jacob} />
       <Heading>Jacob Cohen</Heading>
       <Text>
-        Security researcher, software architect, and engineer for multi-million
-        dollar firms.
+        Senior & Principal engineer for engineering firms, startups, and large
+        corporations.
       </Text>
       <Flex flexDirection="row" gap={5}>
         <Tooltip label="GitHub" aria-label="github">
