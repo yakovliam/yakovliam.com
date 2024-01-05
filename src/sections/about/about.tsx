@@ -1,22 +1,12 @@
-import {
-  Avatar,
-  Flex,
-  Tooltip,
-  Link,
-  Icon,
-  Heading,
-  Text,
-} from '@chakra-ui/react';
+import { Flex, Tooltip, Link, Icon, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 import { BsGithub } from 'react-icons/bs';
 import { SiAdobeacrobatreader, SiGmail, SiLinkedin } from 'react-icons/si';
-import Jacob from '../../jacob.png';
 
 function AboutSection() {
   return (
     <Flex flexDirection="column" align="center" justify="center" gap={10}>
       <Text>YAKOVLIAM.COM CONSULTING</Text>
-      <Avatar boxShadow="dark-lg" size="xl" name="Jacob Cohen" src={Jacob} />
       <Heading>Jacob Cohen</Heading>
       <Text>
         Senior & Principal engineer for engineering firms, startups, and large

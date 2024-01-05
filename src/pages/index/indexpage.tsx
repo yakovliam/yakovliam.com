@@ -1,10 +1,9 @@
 import { Badge, Divider, Flex } from '@chakra-ui/react';
-import '../../styles/App.css';
 import React from 'react';
 import { useSearchParams } from 'react-router-dom';
-import ObjectiveSection from '../../sections/objective';
-import AboutSection from '../../sections/about/index';
-import ProjectsSection from '../../sections/projects';
+import ObjectiveSection from '../../sections/objective/Objective';
+import AboutSection from '../../sections/about/About';
+import ProjectsSection from '../../sections/projects/Projects';
 
 function IndexPage() {
   const [search] = useSearchParams();

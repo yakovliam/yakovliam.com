@@ -1,11 +1,11 @@
 import { Box, ColorModeScript, Flex } from '@chakra-ui/react';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Footer from './components/footer';
-import NotFound from './components/notfound';
-import IndexPage from './pages/index/indexpage';
+import Footer from './components/footer/Footer';
+import NotFound from './components/notfound/NotFound';
+import ClientsPage from './pages/clients/ClientsPage';
+import IndexPage from './pages/index/IndexPage';
 import theme from './theme';
-import ClientsPage from './pages/clients/clientspage';
 
 function App() {
   return (
