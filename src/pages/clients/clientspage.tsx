@@ -1,6 +1,6 @@
 import { Flex, Heading, LinkBox, Text, LinkOverlay } from '@chakra-ui/react';
 import React from 'react';
-import Header from '../../components/header/header';
+import Header from '../../components/header/Header';
 
 function ClientsPage() {
   type ClientCardData = {
