@@ -11,11 +11,13 @@ const App = () => {
         </div>
         <div className="mb-4">
           <p>
-            A results and process-oriented engineer with years of knowledge in
-            product development cycles, application development, and network
-            administration, leveraging a strong background in computer science
-            to deliver high-quality software and hardware to a diverse set of
-            clients.
+            A senior software engineer with a passion for building scalable,
+            high-performance systems that solve real-world problems. With
+            experience ranging from critical power grid technologies to globally
+            distributed game infrastructures, I bring a deep understanding of
+            both backend engineering and team leadership. I specialize in
+            full-stack development across languages and frameworks, delivering
+            reliable, efficient solutions from concept to deployment.
           </p>
         </div>
 
